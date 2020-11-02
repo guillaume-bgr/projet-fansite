@@ -3,63 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Qui sont-ils</title>
+    <link rel="stylesheet" href="assets/css/who.css">
 </head>
 <body>
     <header>
         <!-- Début logo -->
         <section id="site-title">
-            <div id="logo"><img src="" alt="Logo Palmashow"></div>
-            <h1 id="main-title">Palmashow</h1>
-            <div class="h2-block">
-                <h2 id="motto">Le site non-officiel du Palmashow</h2>
-            </div>
+            <div id="logo"><img src="assets/img/logo.png" alt="Logo Palmashow"></div>
+            
         </section>
         <!-- Fin logo Palmashow -->
         <!-- Début Menu hover avec navigation -->
         <section id="mainmenu">
-            <nav>
-                <div><img src="assets/img/logo-transparent.png" alt="Logo Palmashow"></div>
-                <div class="hyperlink-style"><a href="index.html">Accueil</a></div>
-                <div class="hyperlink-style"><a href="videos.html">Leurs vidéos</a></div>
-                <div class="hyperlink-style"><a href="who.html">Qui sont-ils</a></div>
-                <div class="hyperlink-style"><a href="clip.html">Clips musicaux</a></div>
-                <div class="hyperlink-style"><a href="movies.html">Films</a></div>
-                <div class="registerandloginform hyperlink-style">
-                    <div class="register" style="color:white">Se connecter</div>
-                    <div class="login-form">
-                        <form method="POST">
-                            <p>
-                                <label for="username"> Identifiant : </label>
-                                <input type="text" id="username">
-                            </p>
-                            <p>
-                                <label for="password">Mot de Passe :</label>
-                                <input type="password" id="password">
-                            </p>
-                            <p><input class="submit" type="submit"></p>
-                            <p>Vous n'avez pas de compte ?</p>
-                            <p class="link-container"><a href="formulaire.html" style="color: rgb(0, 150, 170);">Créer
-                                    un compte</a></p>
-                           
-                        </form>
-                    </div>
-                </div>
+            <div class="social">
+                <a target="_blank" href="https://discord.gg/gUNUzxcgut"><img src="https://img.icons8.com/ios/50/000000/discord-logo.png"/></a>
+                <a target="_blank" href="https://twitter.com/show_palma"><img src="https://img.icons8.com/ios/50/000000/twitter.png"/></a>
+                <a href=""><img src="https://img.icons8.com/ios/50/000000/instagram-new.png"/></a>
+            </div>
+            <div class="h1-block">
+                <h1 id="motto">Le site non-officiel du Palmashow</h1>
+            </div>
+            <nav class="navbar">
+                <a class="hyperlink-style" href="index.html">Accueil</a>
+                <a class="hyperlink-style" href="videos.html">Leurs vidéos</a>
+                <a class="hyperlink-style" href="who.html">Qui sont-ils</a>
+                <a class="hyperlink-style" href="clip.html">Clips musicaux</a>
+                <a class="hyperlink-style" href="movies.html">Films</a>
             </nav>
         </section>
         <!-- Fin menu principal -->
     </header>
     <main>
-        <article>
+        <article id="maincontent">
             <section class="topic">
-                Grégoire Ludig est un acteur, humoriste et producteur français.
+                <h2 class="h2-1">Grégoire Ludig</h2>
+                <img class="img-1" src="/assets/img/gregoire_ludig_portrait.jpg" alt="gregoireludig">
+                <p class="p1">Grégoire Ludig est un acteur, humoriste et producteur français.
                 Il forme avec David Marsais le duo comique Palmashow depuis 2002. De décembre 2012 à juin 2013, le duo présente l'émission hebdomadaire Palmashow l'émission dont un film est sorti sous le nom de La Folle Histoire de Max et Léon.
-    <img src="/assets/img/gregoire_ludig_portrait.jpg" alt="gregoireludig">
-    <img src="\assets\img\david-marsais.jpeg" alt="davidmarsais">
-            <section class="topic">        
-       
-       
-            </article>
+                </p>
+                <h2 class="h2-2">David Marsais</h2>
+                <img class="img-2" src="\assets\img\david-marsais.jpeg" alt="davidmarsais">
+                <p class="p2">David Marsais est un Acteur, Scénariste, Créateur français. David Marsais est actuellement à l'affiche au cinéma avec 2 films.
+                </p>
+            </section>
+        </article>
     </main>
+    <footer>
+        <div>
+            <p>Création de <a target="_blank" href="https://lamanu.fr/">LaManu</a>  &middot; par Guillaume, Paul, Thomas</p>
+    </div>
+    </footer>
 </body>
 </html>

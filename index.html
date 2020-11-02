@@ -1,51 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fan Site du Palmashow</title>
     <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="shortcut icon" type="favicon" href="assets/img/favicon.png" />
 
 </head>
 <body>
     <header>
         <!-- Début logo -->
         <section id="site-title">
-            <div id="logo"><img src="assets/img/logo.png" alt="Logo Palmashow"></div>w
-            <div class="h2-block">
-                <h2 id="motto">Le site non-officiel du Palmashow</h2>
-            </div>
+            <div id="logo"><img src="assets/img/logo.png" alt="Logo Palmashow"></div>
+            
         </section>
         <!-- Fin logo Palmashow -->
         <!-- Début Menu hover avec navigation -->
         <section id="mainmenu">
-            <nav>
-                <div><img src="assets/img/logo-transparent.png" alt="Logo Palmashow"></div>
-                <div class="hyperlink-style"><a href="index.html">Accueil</a></div>
-                <div class="hyperlink-style"><a href="videos.html">Leurs vidéos</a></div>
-                <!-- <div class="hyperlink-style"><a href="who.html">Qui sont-ils</a></div> -->
-                <div class="hyperlink-style"><a href="clip.html">Clips musicaux</a></div>
-                <div class="hyperlink-style"><a href="movies.html">Films</a></div>
-                <div class="registerandloginform hyperlink-style">
-                    <div class="register" style="color:white">Se connecter</div>
-                    <div class="login-form">
-                        <form method="POST">
-                            <p>
-                                <label for="username"> Identifiant : </label>
-                                <input type="text" id="username">
-                            </p>
-                            <p>
-                                <label for="password">Mot de Passe :</label>
-                                <input type="password" id="password">
-                            </p>
-                            <p><input class="submit" type="submit"></p>
-                            <p>Vous n'avez pas de compte ?</p>
-                            <p class="link-container"><a href="formulaire.html" style="color: rgb(0, 150, 170);">Créer
-                                    un compte</a></p>
-                        </form>
-                    </div>
-                </div>
+            <div class="social">
+                <a target="_blank" href="https://discord.gg/gUNUzxcgut"><img src="https://img.icons8.com/ios/50/000000/discord-logo.png"/></a>
+                <a target="_blank" href="https://twitter.com/show_palma"><img src="https://img.icons8.com/ios/50/000000/twitter.png"/></a>
+                <a href=""><img src="https://img.icons8.com/ios/50/000000/instagram-new.png"/></a>
+            </div>
+            <div class="h1-block">
+                <h1 id="motto">Le site non-officiel du Palmashow</h1>
+            </div>
+            <nav class="navbar">
+                <a class="hyperlink-style" href="index.html">Accueil</a>
+                <a class="hyperlink-style" href="videos.html">Leurs vidéos</a>
+                <a class="hyperlink-style" href="who.html">Qui sont-ils</a>
+                <a class="hyperlink-style" href="clip.html">Clips musicaux</a>
+                <a class="hyperlink-style" href="movies.html">Films</a>
             </nav>
         </section>
         <!-- Fin menu principal -->
@@ -54,22 +39,18 @@
         <article id="maincontent">
             <section class="topic">
                 <h2>Présentation du collectif</h2>
-                <p>
+                <p class="p1">
                     <span>David Marsais</span>, <span>Grégoire Ludig</span> forment en 2002 le <span>Palmashow</span>,
                     un groupe d'humoristes donc l'étymologie
                     découle de l'ancien groupe de rap de Grégoire Ludig (oui, Grégoire a rappé) et de leur passion pour
-                    les sketchs. Après avoir écrit des sketchs pour d'autres comédiens et avoir eux même tenté leur
+                    les sketchs. <span class="span-r1"> Après avoir écrit des sketchs pour d'autres comédiens et avoir eux même tenté leur
                     chance en 2003, ils animent quelques émissions de radio et commencent finalement à se faire
-                    connaître en 2006 sur Daylimotion avec des sketchs parodiques
-                    <p class="img-wrapper">
-                        <img src="assets/img/smoking.jpg" alt="Le Duo du Palmashow en Costume">
-                    </p>
-                    de films, qui battent des records de vues sur la plateforme rarement égalés à cette époque.
+                    connaître en 2006 sur Daylimotion avec des sketchs parodiques de films, qui battent des records de vues sur la plateforme rarement égalés à cette époque.</span>
                 </p>
-                <p class="img-wrapper">
-                    <img src="assets/img/smoking.jpg" alt="Le Duo du Palmashow en Costume">
-                </p>
-                <p>
+                <div class="img-wrapper"><img src="assets/img/smoking.jpg" alt="Le Duo du Palmashow en Costume"></div>
+                
+                <div class="img-wrapper2"> <img src="assets/img/le-duo.jpeg" alt="Le Duo du Palmashow sur tf1"></div>
+                <p class="p2">
                     Ils créent en 2010 l'émission <span>La Folle Histoire du Palmashow</span>, suivi en 2011 du
                     <span>Palmashow</span>
                     qu'on
@@ -88,8 +69,9 @@
         </article>
     </main>
     <footer>
-        <p>Création de LaManu &middot; par Guillaume, Paul, Thomas</p>
-        <img src="assets/img/lamanu-footer.png" alt="La Manu Footer">
+        <div>
+            <p>Création de <a target="_blank" href="https://lamanu.fr/">LaManu</a>  &middot; par Guillaume, Paul, Thomas</p>
+    </div>
     </footer>
 </body>
 </html>

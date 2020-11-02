@@ -4,118 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Leurs Vidéos</title>
+    <link rel="stylesheet" href="assets/css/videos.css">
 </head>
 
 <body>
     <header>
         <!-- Début logo -->
         <section id="site-title">
-            <div id="logo"><img src="" alt="Logo Palmashow"></div>
-            <h1 id="main-title">Palmashow</h1>
-            <div class="h2-block">
-                <h2 id="motto">Le site non-officiel du Palmashow</h2>
-            </div>
+            <div id="logo"><img src="assets/img/logo.png" alt="Logo Palmashow"></div>
+            
         </section>
         <!-- Fin logo Palmashow -->
         <!-- Début Menu hover avec navigation -->
         <section id="mainmenu">
-            <nav>
-                <div><img src="assets/img/logo-transparent.png" alt="Logo Palmashow"></div>
-                <div class="hyperlink-style"><a href="index.html">Accueil</a></div>
-                <div class="hyperlink-style"><a href="videos.html">Leurs vidéos</a></div>
-                <div class="hyperlink-style"><a href="who.html">Qui sont-ils</a></div>
-                <div class="hyperlink-style"><a href="clip.html">Clips musicaux</a></div>
-                <div class="hyperlink-style"><a href="movies.html">Films</a></div>
-                <div class="registerandloginform hyperlink-style">
-                    <div class="register" style="color:white">Se connecter</div>
-                    <div class="login-form">
-                        <form method="POST">
-                            <p>
-                                <label for="username"> Identifiant : </label>
-                                <input type="text" id="username">
-                            </p>
-                            <p>
-                                <label for="password">Mot de Passe :</label>
-                                <input type="password" id="password">
-                            </p>
-                            <p><input class="submit" type="submit"></p>
-                            <p>Vous n'avez pas de compte ?</p>
-                            <p class="link-container"><a href="formulaire.html" style="color: rgb(0, 150, 170);">Créer
-                                    un compte</a></p>
-
-                        </form>
-                    </div>
-                </div>
+            <div class="social">
+                <a target="_blank" href="https://discord.gg/gUNUzxcgut"><img src="https://img.icons8.com/ios/50/000000/discord-logo.png"/></a>
+                <a target="_blank" href="https://twitter.com/show_palma"><img src="https://img.icons8.com/ios/50/000000/twitter.png"/></a>
+                <a href=""><img src="https://img.icons8.com/ios/50/000000/instagram-new.png"/></a>
+            </div>
+            <div class="h1-block">
+                <h1 id="motto">Le site non-officiel du Palmashow</h1>
+            </div>
+            <nav class="navbar">
+                <a class="hyperlink-style" href="index.html">Accueil</a>
+                <a class="hyperlink-style" href="videos.html">Leurs vidéos</a>
+                <a class="hyperlink-style" href="who.html">Qui sont-ils</a>
+                <a class="hyperlink-style" href="clip.html">Clips musicaux</a>
+                <a class="hyperlink-style" href="movies.html">Films</a>
             </nav>
         </section>
         <!-- Fin menu principal -->
     </header>
     <main>
         <article id="maincontent">
-            <section>
+            <section class="topic">
                 <h2>Les meilleures vidéos du Palmashow</h2>
-                <p>Ici, vous retrouverez une compilation des meilleures vidéos du Palmashow</p>
-            </section>
-            <section>
-                <div>
-                    <h3>Ko Lantah</h3>
-                    <iframe width="949" height="534" src="https://www.youtube.com/embed/txbwArWb_9I" frameborder="0"
+                <p class="p1">Ici, vous retrouverez une compilation des meilleures vidéos du Palmashow</p>
+                    <h3 class="h3-1">Ko Lantah</h3>
+                    <iframe class="video-1" width="860" height="500" src="https://www.youtube.com/embed/txbwArWb_9I" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                    <p>Dans cette vidéo, nous retrouvons une parodie de la célèbre emission de Koh Lanta, Gregoire Ludig
+                    <p class="p2">Dans cette vidéo, nous retrouvons une parodie de la célèbre emission de Koh Lanta, Gregoire Ludig
                         incarne
                         avec perfection Denis Brogniart dans une émission loufoque ou tout est permis.</p>
-                </div>
-                <div>
-                    <h3>Les vendeurs ikea</h3>
-                    <iframe width="949" height="534" src="https://www.youtube.com/embed/JWvAXD3Aj1U" frameborder="0"
+            
+                    <h3 class="h3-2">Les vendeurs ikea</h3>
+                    <iframe class="video-2" width="860" height="500" src="https://www.youtube.com/embed/JWvAXD3Aj1U" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                    <p>Ici, Grégoire et David jouent le role de vendeurs Ikea clichés, avec pleins d'anecdotes
+                    <p class="p3">Ici, Grégoire et David jouent le role de vendeurs Ikea clichés, avec pleins d'anecdotes
                         humoristiques sur
                         l'enseigne.</p>
-                </div>
-                <div>
-                    <h3>La journée radar</h3>
-                    <iframe width="949" height="534" src="https://www.youtube.com/embed/SpKgCOawNbU" frameborder="0"
+               
+                    <h3 class="h3-3">La journée radar</h3>
+                    <iframe class="video-3" width="860" height="500" src="https://www.youtube.com/embed/SpKgCOawNbU" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                    <p>La journée radar ! Une caricature a mourir de rire sur les gendarmes entrain de controler les
+                    <p class="p4">La journée radar ! Une caricature a mourir de rire sur les gendarmes entrain de controler les
                         limitations
                         de
                         vitesses. </p>
-                </div>
-                <div>
-                    <h3>Les pharmaciens</h3>
-                    <iframe width="949" height="534" src="https://www.youtube.com/watch?v=NlJEZPeN99c" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <p>Nous retrouvons Gregoire et David dans le role de pharmaciens gangster ratés, un des differents
-                        personnages
-                        qu'incarnent les deux humoristes.</p>
-                </div>
-                <div>
-                    <h3>La Hotline</h3>
-                    <iframe width="949" height="534" src="https://www.youtube.com/watch?v=qIM0kucdiGM" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <p>Dans cette vidéo, sur le thème des opérateurs téléphoniques, nous retrouvons les deux acteurs
-                        dans
-                        differents
-                        roles plus qu'hilarants.</p>
-                </div>
-                <div>
-                    <h3>Team Building</h3>
-                    <iframe width="949" height="534" src="https://www.youtube.com/watch?v=R-nXOhU0Bk4" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <p>TEAM BUILDING TEAM BUILDING !</p>
-                </div>
             </section>
         </article>
     </main>
     <footer>
-        <p>Création de LaManu &middot; par Guillaume, Paul, Thomas</p>
-        <img src="assets/img/lamanu-footer.png" alt="La Manu Footer">
+        <div>
+            <p>Création de <a target="_blank" href="https://lamanu.fr/">LaManu</a>  &middot; par Guillaume, Paul, Thomas</p>
+    </div>
     </footer>
+</body>
+</html>
